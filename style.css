@@ -1,0 +1,135 @@
+/* Box Sizing Border Box Universal Fix */
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777;
+    background-color: #777;
+    /* width: 960px; */
+    font-size: 18px;
+    margin: 0;
+}
+
+.page-container {
+    margin: 0 auto;
+    max-width: 960px;
+}
+
+
+.header {
+    background-color:#ebebeb;
+    margin-bottom: 20px;
+    margin-top:20px;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 10px;
+    /* margin-left:10%; */
+    
+}
+
+.nav {
+    background-color:#ebebeb;
+    margin-bottom: 20px;
+    margin-top:20px;
+    text-align: center;
+    /* width:120%; */
+    padding: 20px;
+    margin-bottom: 20px;
+    /* margin-left:10%; */
+}
+
+.flex-container {
+    display: flex;
+    margin-bottom:20px;
+}
+
+
+section {
+    background-color:#ebebeb;
+    padding: 10px;
+    /* margin:10px; */
+    text-align:center;
+    /* width:600px; */
+    height: 300px;
+    width: 60%;
+    /* display: inline-block; */
+    margin-right: 20px;
+}
+
+aside {
+    background-color: #ebebeb;
+    width: 40%;
+    text-align:center;
+    /* display: inline-block; */
+}
+
+
+
+/* .container1{
+ 
+    padding: 20px;
+    margin-top:5px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-left:70px;
+    height:400px;
+    display:inline-block;
+
+} */
+
+/* .container2{
+    width:300px;
+    padding: 20px;
+    margin-top:5px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-left:10px;
+    height:400px;
+    display:inline-block;
+
+} */
+
+.article {
+    color: #ebebeb;
+    background-color: #777;
+    padding: 20px;
+    margin:10px;
+    margin-top:10px;
+    text-align:center;
+    height: 220px;
+}
+
+.headers {
+    color:#777;
+    background-color:#ebebeb;
+    padding: 10px;
+    margin:10px;
+    margin-top:10px;
+    text-align:center;
+}
+
+.paragraph {
+    color:#777;
+    background-color:#ebebeb;
+    padding: 10px;
+    margin:10px;
+    text-align:center;
+}
+
+.footer {
+    background-color:#ebebeb;
+    margin-bottom: 20px;
+    margin-top:10px;
+    text-align: center;
+    padding: 10px;
+    
+}
+
+
+
