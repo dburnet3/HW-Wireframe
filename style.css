@@ -130,6 +130,8 @@ aside {
     padding: 10px;
     
 }
-
-
+.clearfix::before {
+    content: "";
+    clear: both;
+}
 
